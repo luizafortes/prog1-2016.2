@@ -9,11 +9,18 @@ int main ()
   if( (letra<91) && (letra>64))
 	
 	{
-	printf("\nMaiuscula\n")	;
+	printf("\nMaiuscula\n\n")	;
 	}
+		
 	else
 	{
-	printf("\nMinuscula\n");
+		if((letra>=48) && (letra<=57))
+	
+	{
+	printf("\nVocê digitou um numero\n\n")	;
+	}
+		else
+	printf("\nMinuscula\n\n");
 	}
 	system("pause");
   return(0); 
