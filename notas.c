@@ -2,9 +2,9 @@
 
 int main()
 {
-    float soma=0, media;  
+    float soma=0, media, maior=-1;
     float av1 [10];
-    int i;
+    int i, qtd=0;
          
   for(i=0;i<=9;i++)
   {
@@ -22,6 +22,18 @@ int main()
     {
       if(av1[i] >= media)
       printf("\nAluno %d -> Nota = %f \n", i+1, av1[i]);
+    }
+  printf("\n------------------------------------\n");
+  
+  printf("\n------------------------------------\n");
+  printf("\nQuantos alunos tiraram a maior nota?\n");
+  
+    for(i=0;i<=9;i++)
+    {
+      if(av1[i] > maior)
+      maior=av1[i];
+      if else (av1[i] == maior) 
+      qtd==qtd++;
     }
   printf("\n------------------------------------\n");
     return 0;
