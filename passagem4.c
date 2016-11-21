@@ -5,7 +5,14 @@ int main()
 int origem;
 int destino;
 float p1=150, p2=300, p3=160, p4=180, p5=280, p6=175, dolar=3.4;
-
+/*
+p1=RIO->SP
+p2=RIO->SSA
+p3=SP->RIO
+p4=SP->SSA
+p5=SSA->RIO
+p6=SSA->SP
+*/
 
 printf("\nOla, meu nome e Luiza, qual a sua origem (1-Rio/2-SP/3-SSA)?\n");
 scanf("%d",&origem);
