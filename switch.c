@@ -19,6 +19,6 @@ int main()
             printf("\nOpcao invalida!\n");
 
         }
-        system("pause");
+        
         return 0;
     }

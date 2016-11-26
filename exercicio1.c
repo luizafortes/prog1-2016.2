@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
-Faça um programa em C para:
-Ler 2 números e imprimir a soma dos 2 numeros
+Faca um programa em C para:
+Ler 2 numeros e imprimir a soma dos 2 numeros
 */
 int main()
 
@@ -10,7 +10,7 @@ int main()
 	int numero1; 
 	int numero2;
 	
-			
+	
 	printf("Diga um numero de 1 a 10!\n"); //pergunta 1
 	
 	scanf("%d", &numero1);	//resposta 1
@@ -23,10 +23,9 @@ int main()
 	
 	printf("\n A diferenca dos numeros e = %d ", numero1 - numero2); //subtracao
 	
-	printf("\n O produto dos numeros e = %d ", numero1 * numero2); //multiplicação
+	printf("\n O produto dos numeros e = %d ", numero1 * numero2); //multiplicacao
 	
-	printf("\n A divisao dos numeros e = %.2f \n", (float) numero1 / numero2); //divisão
+	printf("\n A divisao dos numeros e = %.2f \n", (float) numero1 / numero2); //divisao
 	
-	system("pause");	
 	return 0;
 	}

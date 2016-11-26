@@ -28,12 +28,7 @@ int main()
   printf("\n------------------------------------\n");
   printf("\nQuantos alunos tiraram a maior nota?\n");
   
-    for(i=0;i<=9;i++)
-    {
-      if(av1[i] > maior)
-      maior=av1[i];
-      if else (av1[i] == maior) 
-      qtd==qtd++;
+    
     }
   printf("\n------------------------------------\n");
     return 0;

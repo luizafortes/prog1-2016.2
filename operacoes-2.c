@@ -17,20 +17,23 @@ int main()
             result=num1+num2;
             printf ("\nResposta: %d+%d=%d \n", num1,num2,result);
             break;
-        /*case 2:
-            printf ("\nResposta: %d+%d=%d \n", num1 + num2);
+        case 2:
+            result=num1-num2;
+            printf ("\nResposta: %d-%d=%d \n", num1,num2,result);
             break;
         case 3:
-            printf ("\nResposta: %.2f \n", (float)num1 * num2);
+            result=num1*num2;
+            printf ("\nResposta: %d*%d=%d \n", num1,num2,result);
             break;
         case 4:
-            printf ("\nResposta: %.2f \n", (float)num1 / num2);
-            break;*/
+            result=num1/num2;
+            printf ("\nResposta: %d/%d=%d \n", num1,num2,result);
+            break;
             }
                 printf("\ndeseja continuar (1-s/2-n)?");
                 scanf("%d", &resposta);
         }while(resposta==1);
-        system("pause");
+        
         return(0);
     }
 

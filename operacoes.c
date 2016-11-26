@@ -28,7 +28,7 @@ int main()
                 printf("\ndeseja continuar (1-s/2-n)?");
                 scanf("%d", &resposta);
         }while(resposta==1);
-        system("pause");
+        
         return(0);
     }
 
