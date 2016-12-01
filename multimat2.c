@@ -10,16 +10,16 @@ int main()
   int i, j, m; 
   int matA[50][50], matB[50][50], matR[50][50];
     
-  printf("\nMULTIPLICACAO DE 2 MATRIZES\n............................\n\n");
+  printf("\nMultiplicacao de 2 matrizes\n............................\n\n");
   
-    printf("\nValores da Matriz A (2 linhas | 3 colunas)\n.........................................\n\n");
+    printf("\nMatriz A (2 linhas | 3 colunas)\n.........................................\n\n");
     for (i=0; i<2; i++) {
       for(j=0; j<3; j++) {
         printf("Entre com um numero para Linha [%d] Coluna [%d].: ", (i+1), (j+1));
         scanf("%d", &matA[i][j]);
       }
     }
-    printf("\nValores da Matriz B (3 linhas | 2 colunas)\n..................................\n\n");
+    printf("\nMatriz B (3 linhas | 2 colunas)\n..................................\n\n");
     for (i=0; i<3; i++) {
       for (j=0; j<2; j++) {
         printf("Entre com um numero para Linha [%d] Coluna [%d].: ", (i+1), (j+1));
@@ -34,7 +34,7 @@ int main()
         }
       }
     }
-    printf("\nMatriz R\n..................................\n\n");
+    printf("\nMatriz R - Resultado da Multiplicacao\n..................................\n\n");
     for (i=0; i<2; i++) {
       for (j=0; j<2; j++) {
         printf("%d ", matR[i][j]);
